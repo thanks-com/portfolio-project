@@ -1,6 +1,6 @@
 
 
-import Image3 from "../assets/images/project-image-3.png";
+import Image3 from "../assets/images/king-fast.png";
 import Image4 from "../assets/images/project-image-4.png";
 import Image5 from "../assets/images/project-image-5.png";
 import Image6 from "../assets/images/project-image-6.png";
@@ -30,12 +30,12 @@ const ProjectShowcase = () => {
         <div className="project">
           <img src={Image3} alt="" />
           <p>
-            This is a full-stack pizza selling website built using modern
+            This is a full-stack Restaurant project  built using modern
             technologies. The frontend is developed with React and Tailwind CSS,
             while the backend is powered by Node.js, Express, and MongoDB. It is
             one of my ongoing projects.
           </p>
-          <a href="https://pizza-selling.onrender.com" target="_blanck">
+          <a href="https://kingfisherrestaurantbd.com/" target="_blanck">
             <button>Demo</button>
           </a>
         </div>
