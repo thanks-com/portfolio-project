@@ -5,6 +5,7 @@ import Image4 from "../assets/images/project-image-4.png";
 import Image5 from "../assets/images/project-image-5.png";
 import Image6 from "../assets/images/project-image-6.png";
 import Image1 from "../assets/images/bongoDev-09-08-2025_03_38_AM.png"
+import Images from "../assets/images/star-tech.png"
 
 import "./responsive.css";
 const ProjectShowcase = () => {
@@ -35,6 +36,18 @@ const ProjectShowcase = () => {
             one of my ongoing projects.
           </p>
           <a href="https://pizza-selling.onrender.com" target="_blanck">
+            <button>Demo</button>
+          </a>
+        </div>
+
+        <div className="project">
+          <img src={Images} alt="" />
+          <p>
+            This is a full-stack Product selling website built using modern
+            technologies. The frontend is developed with React and Tailwind CSS,
+            while the backend is powered by Node.js, Express, and MongoDB. 
+          </p>
+          <a href="https://www.startech.com.bd/?srsltid=AfmBOorkXxu8qGidxkouIb3JPfaEegS3f3lFwgg87UQ5WRtBXh_ZvD4F" target="_blanck">
             <button>Demo</button>
           </a>
         </div>
