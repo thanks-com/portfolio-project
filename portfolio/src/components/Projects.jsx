@@ -1,9 +1,10 @@
-import Image1 from "../assets/images/4208903.jpg";
-import Image2 from "../assets/images/Material-Dashboard-2-React-01-15-2025_10_23_PM.png";
+
+
 import Image3 from "../assets/images/project-image-3.png";
 import Image4 from "../assets/images/project-image-4.png";
 import Image5 from "../assets/images/project-image-5.png";
 import Image6 from "../assets/images/project-image-6.png";
+import Image1 from "../assets/images/bongoDev-09-08-2025_03_38_AM.png"
 
 import "./responsive.css";
 const ProjectShowcase = () => {
@@ -13,33 +14,25 @@ const ProjectShowcase = () => {
         <div className="project">
           <img src={Image1} alt="" />
           <p>
-            This is the Task Meneger Pro it is the full-stack project and you
-            can organize your work to do list wase we are use the technology
-            like React Frontend and Backend mongodb express or node js.{" "}
+            “I am currently working on the bongoDev Coaching website project.
+            This is a real-time project aimed at creating a professional website
+            for the coaching platform. Many students have already enrolled in
+            this course, and I am contributing to the development of a modern,
+            user-friendly, and professional website to enhance their learning
+            experience.”
           </p>
-          <a href="https://taskmenegerpro.onrender.com/" target="_blanck">
-            <button>Demo</button>
-          </a>
-        </div>
-
-        <div className="project">
-          <img src={Image2} alt="" />
-          <p>
-            This is the Admin Dashboard project and this Frontend project we are
-            use the technology like React Frontend and Tailwind css. this
-            project use easly mentanace your website.{" "}
-          </p>
-          <a href="https://dashboard54.netlify.app/" target="_blanck">
-            <button>Demo</button>
+          <a href="https://www.bongodev.com/" target="_blanck">
+            <button className="">Demo</button>
           </a>
         </div>
 
         <div className="project">
           <img src={Image3} alt="" />
           <p>
-            This is full-stack Pizza selling website use the technology like
-            Frontend react and tailwind and backend use mongodb express or node
-            js this project use easly sell your pizza.{" "}
+            This is a full-stack pizza selling website built using modern
+            technologies. The frontend is developed with React and Tailwind CSS,
+            while the backend is powered by Node.js, Express, and MongoDB. It is
+            one of my ongoing projects.
           </p>
           <a href="https://pizza-selling.onrender.com" target="_blanck">
             <button>Demo</button>
@@ -47,7 +40,7 @@ const ProjectShowcase = () => {
         </div>
       </div>
 
-      <div className="project-demo-1 mt-10">
+      <div className="project-demo-2 ">
         <div className="project">
           <img src={Image4} alt="" />
           <p>
