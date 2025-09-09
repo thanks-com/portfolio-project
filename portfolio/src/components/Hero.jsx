@@ -168,13 +168,13 @@ const profile = {
 
                 {/* Contact Button */}
                 <a
-                  href="https://drive.google.com/file/d/1imcAVaRIFljjmywba_52_t8k6zc8yIu_/view?usp=sharing"
+                  href=""
                   className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r transition-all duration-300 border border-indigo-500"
                   target="_blanck"
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] transition-all duration-300">
                     <span className="relative flex items-center justify-center gap-2">
-                      <span>Get Resume</span>
+                      <a href="https://drive.google.com/file/d/1imcAVaRIFljjmywba_52_t8k6zc8yIu_/view?usp=sharing" target="_blanck">Get Resume</a>
                       <i className="fas fa-envelope transform transition-all duration-300 group-hover:rotate-12"></i>
                     </span>
                   </span>
